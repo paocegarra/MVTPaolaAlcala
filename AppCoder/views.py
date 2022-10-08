@@ -17,7 +17,7 @@ def crear_familia(request):
     familiar_3 = Familia (nombre="María" , apellido="Lina" , correo="Linida@gmail.com", edad="7", fecha_de_nacimiento="2015-7-31")
     familiar_1.save()
     familiar_2.save()
-    familiar_1.save()
+    familiar_3.save()
     
     dict_de_contexto = {
          
